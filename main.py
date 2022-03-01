@@ -6,19 +6,11 @@ def main():
     dmin = np.load('./Tasks/Direction_task_with_dots_synchronised_min.npz')
     dmaxh = np.load('./Tasks/Direction_task_with_dots_synchronised_max_hilbert.npz')
     dmax = np.load('./Tasks/Direction_task_with_dots_synchronised_max.npz')
-    pminh = np.load('./Tasks/Position_task_with_dots_synchronised_max.npz')
-    pmin = np.load('./Tasks/Position_task_with_dots_synchronised_max.npz')
-    pmaxh = np.load('./Tasks/Position_task_with_dots_synchronised_max.npz')
-    pmax = np.load('./Tasks/Position_task_with_dots_synchronised_max.npz')
 
     ldminh = dminh['labels']
     ldmin = dmin['labels']
     ldmaxh = dmaxh['labels']
     ldmax = dmax['labels']
-    lpminh = pminh['labels']
-    lpmin = pmin['labels']
-    lpmaxh = pmaxh['labels']
-    lpmax = pmax['labels']
 
     print("cdminh")
     cdminh = leftrighttrans1(ldminh[:,2])
