@@ -9,9 +9,9 @@ Eye-Tracking Classifier Performance After a Covariate Distributional Shift by Br
 2. On the left, you will find two folders, the first of which is named "Dropbox: EEGEyeNet." If this first folder has a (+) sign next to it, click on the (+) sign. Otherwise, go to the next step directly. 
 3. Four folders should pop up. Open the folder named **Prepared** (Click the + sign next to the folder named "prepared"). 
 4. Scroll until you see four files that start with "LR_task_with."
-5. Download the second to last one to your device ('LR_task_with_antisaccade_synchronised_min.npz').
+5. Download the second to last one to your device ("LR_task_with_antisaccade_synchronised_min.npz").
 6. Scroll until you see eight files that start with "Direction_task_with."
-5. Download the third one to your device ('Direction_task_with_dots_synchronised_min.npz').
+5. Download the third one to your device ("Direction_task_with_dots_synchronised_min.npz").
 7. Place the downloaded datasets into the folder named **Tasks**.
 
 ## Python Requirements
