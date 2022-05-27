@@ -3,7 +3,7 @@
 This is the Github Repo for the data processing step for the research done in Vector-Based Data Improves Left-Right
 Eye-Tracking Classifier Performance After a Covariate Distributional Shift by Brian Xiang and Abdelrahman Abdelmonsef @ **Swarthmore College**. 
 
-##Downloading the datasets
+## Downloading the datasets
 
 1. Navigate to https://osf.io/ktv7m/. 
 2. On the left, you will find two folders, the first of which is named "Dropbox: EEGEyeNet." If this first folder has a (+) sign next to it, click on the (+) sign. Otherwise, go to the next step directly. 
@@ -14,14 +14,14 @@ Eye-Tracking Classifier Performance After a Covariate Distributional Shift by Br
 5. Download the third one to your device ('Direction_task_with_dots_synchronised_min.npz').
 7. Place the downloaded datasets into the folder named **Tasks**.
 
-##Python Requirements
+## Python Requirements
 
 Verify that your python environment contains proper installations for the three files listed below:\
   1- general_requirments.txt\
   2- standard_ml_requirments.txt\
   3- tensorflow_requirements.txt
 
-##Data Processing
+## Data Processing
 
 1. Run **TranslatingLR.py**. You should now have a file called 'LR_task_with_dots_synchronised_min.npz' in the **Tasks** folder.
 2. The remaining code is built upon the coding interface provided by the EEGEyeNet repository: https://github.com/ardkastrati/EEGEyeNet. A detailed explanation of the interface is provided there. 
