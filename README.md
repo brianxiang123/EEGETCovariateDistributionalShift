@@ -17,9 +17,9 @@ Eye-Tracking Classifier Performance After a Covariate Distributional Shift by Br
 ## Python Requirements
 
 Verify that your python environment contains proper installations for the three files listed below:\
-  1- general_requirments.txt\
-  2- standard_ml_requirments.txt\
-  3- tensorflow_requirements.txt
+1. general_requirments.txt\
+2. standard_ml_requirments.txt\
+3. tensorflow_requirements.txt
 
 ## Data Processing
 
