@@ -29,7 +29,7 @@ Verify that your python environment contains proper installations for the three 
 4. By default, specifying the training set also uses the same dataset as the testting set. To create a covariate distributional shift, first train models using one dataset and then set config['retrain'] = False and specify the location of the trained models with config['load_experiment_dir'] (the models should be under a folder named 'runs')
 5. Once the training and testing datasets have been determined, run **main.py** and wait for the results.
 
-If you have any comments or suggestions, you can contact us at bxiang1@swarthmore.edu and/or ayahia1@swarthmore.edu.
+If you have any comments or suggestions, contact bxiang1@swarthmore.edu and/or ayahia1@swarthmore.edu.
 
 
  
