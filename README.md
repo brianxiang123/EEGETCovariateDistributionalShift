@@ -26,7 +26,7 @@ Verify that your python environment contains proper installations for the three 
 1. Run **TranslatingLR.py**. You should now have a file called 'LR_task_with_dots_synchronised_min.npz' in the **Tasks** folder.
 2. The remaining code is built upon the coding interface provided by the EEGEyeNet repository: https://github.com/ardkastrati/EEGEyeNet. A detailed explanation of the interface is provided there. 
 3. Adjust the **config.py** file to select training and testing datasets. NOTE: By default, the testing and training will be done using the minimally preprocessed dots data (large grid paradigm). However, if you want to change the dataset used, make sure you specify so through the config['dataset'] and config['preprocessing'] fields. **If you changed any of the two fields, make sure you have the corresponding data labeled correctly**.  
-4. By default, specifying the training set also uses the same dataset as the testting set. To create a covariate distributional shift, first train models using one dataset and then set config['retrain'] = False and specify the location of the trained models with config['load_experiment_dir'] (the models should be under a folder named 'runs')
+4. By default, specifying the training set also uses the same dataset as the testing set. To create a covariate distributional shift, first train models using one dataset and then set config['retrain'] = False and specify the location of the trained models with config['load_experiment_dir'] (the models should be under a folder named 'runs')
 5. Once the training and testing datasets have been determined, run **main.py** and wait for the results.
 
 If you have any comments or suggestions, contact bxiang1@swarthmore.edu and/or ayahia1@swarthmore.edu.
